@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="PhanMenBangDia"	transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<class>entities.KhachHang</class>
+		<class>entities.TieuDe</class>
+		<class>entities.DanhSachDatTruoc</class>
+		<class>entities.DanhSachDatTruocId</class>
+		<class>entities.BangDia</class>
+		<class>entities.PhieuThue</class>
+		<class>entities.ChiTietPhieuThueId</class>
+		<class>entities.ChiTietPhieuThue</class>
+		<properties>
+			<property name="hibernate.dialect"
+				value="database.MySQLServerUnicodeDialect" />
+			<property name="javax.persistence.jdbc.driver"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:sqlserver://localhost:1433;databaseName=XayDungPhanMem;characterEncoding=UTF-8" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password"
+				value="sapassword" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="none" />
+		</properties>
+	</persistence-unit>
+</persistence>

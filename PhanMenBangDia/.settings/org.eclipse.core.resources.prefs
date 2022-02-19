@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/main/java/database/TestDB.java=UTF-8
+encoding//src/main/java/views/MainScreen.java=UTF-8
+encoding//src/main/java/views/bangdia/QuanLyBangDiaPanel.java=UTF-8
+encoding//src/main/java/views/dangnhap/GUILogin.java=UTF-8
+encoding//src/main/java/views/dattruoc/QuanLyDatTruocPanel.java=UTF-8
+encoding//src/main/java/views/khachhang/QuanLyKhachHangPanel.java=UTF-8
+encoding//src/main/java/views/phitrehan/GUIThanhToanPhiTreHan.java=UTF-8
+encoding//src/main/java/views/phitrehan/QuanLyPhiTreHanPanel.java=UTF-8
+encoding//src/main/java/views/thuedia/ThueDiaPanel.java=UTF-8
+encoding//src/main/java/views/tuaphimgame/QuanLyPhimGamePanel.java=UTF-8
